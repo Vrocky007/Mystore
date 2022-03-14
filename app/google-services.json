@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1074482160282",
+    "firebase_url": "https://yesplz-3d24b.firebaseio.com",
+    "project_id": "yesplz-3d24b",
+    "storage_bucket": "yesplz-3d24b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1074482160282:android:3c16c01f7b1599347ef523",
+        "android_client_info": {
+          "package_name": "gogrocer.tcc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1074482160282-07qjpmdl7krnspdomjdm31grib0qc1nt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "gogrocer.tcc",
+            "certificate_hash": "2a71a4f464ea7d224560ab4b9e8971bf81641f8f"
+          }
+        },
+        {
+          "client_id": "1074482160282-7bmf7hul2pv8knhgc2mgj30jf9l4h0d4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNfhv1Xgy5sEdaM-pZQrduQsxHMR3fyKA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1074482160282-7bmf7hul2pv8knhgc2mgj30jf9l4h0d4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

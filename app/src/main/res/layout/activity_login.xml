@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F6F7F9"
+    tools:context="gogrocer.tcc.LoginActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+
+        <ImageView
+            android:id="@+id/loginImage"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        android:background="#F6F7F9"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:padding="@dimen/space_20"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:src="@drawable/yes_plz"
+            android:textAlignment="center" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:background="#F6F7F9"
+            android:layout_height="wrap_content">
+            <Fonts.LatoBLack
+                android:id="@+id/tv_login_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/space_10"
+                android:text="@string/et_login_phone_hint"
+                android:textColor="#000"
+                android:textSize="14sp" />
+            <ImageView
+                android:id="@+id/iconnemail"
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:layout_marginTop="@dimen/space_10"
+                android:src="@drawable/iconn" />
+
+        </LinearLayout>
+
+
+        <EditText
+            android:id="@+id/et_login_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/space_10"
+            android:background="@drawable/edittxt_back"
+            android:ems="10"
+            android:hint="Mobile"
+            android:inputType="textEmailAddress"
+            android:padding="@dimen/space_15"
+            android:textColor="#000"
+            android:textColorHint="@color/dark_gray"
+            android:textSize="14sp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+
+            <Fonts.LatoBLack
+                android:id="@+id/tv_login_password"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/space_10"
+                android:text="@string/tv_login_password"
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:id="@+id/iconp"
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:layout_marginTop="@dimen/space_10"
+                android:src="@drawable/iconn" />
+
+        </LinearLayout>
+
+
+        <EditText
+            android:id="@+id/et_login_pass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/space_10"
+            android:layout_marginTop="@dimen/space_10"
+            android:background="@drawable/edittxt_back"
+            android:ems="10"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:maxLength="10"
+            android:padding="@dimen/space_15"
+            android:textColor="#000"
+            android:textColorHint="@color/dark_gray"
+            android:textSize="14sp" />
+
+
+        <Fonts.LatoBLack
+            android:id="@+id/btnForgot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:text="@string/forgot"
+            android:textColor="@color/dark_gray"
+            android:textSize="13sp" />
+
+
+
+
+
+        <RelativeLayout
+            android:id="@+id/btnContinue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="12dp"
+            android:background="@drawable/bg_rounded_button"
+            android:padding="12dp">
+
+            <Fonts.LatoBLack
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Sign In"
+                android:fontFamily="@font/cold"
+                android:textColor="#fff"
+                android:textSize="18sp" />
+
+
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:id="@+id/btnRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal"
+            android:padding="5dp">
+
+            <Fonts.LatoBLack
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="New to this Experience.."
+                android:fontFamily="@font/cold"
+
+                android:textColor="#6B6B6D"
+                android:textSize="12sp" />
+
+
+            <Fonts.LatoBLack
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sign Up"
+                android:fontFamily="@font/cold"
+                android:textColor="@color/green"
+                android:textSize="12sp" />
+
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <Fonts.LatoBLack
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OR"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="@font/cold"
+            android:textColor="#6B6B6D"
+            android:textSize="15sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+ <ImageView
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:src="@drawable/facebook"
+     android:padding="@dimen/space_10"
+     android:layout_weight="0.5"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/google"
+            android:padding="@dimen/space_10"
+            android:layout_weight="0.5"/>
+
+
+    </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>
